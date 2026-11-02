@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101b20">
+  <title>Work-KI – Dein Arbeitsplatz. Deine KI.</title>
+  <meta name="description" content="Work-KI verbindet lokale KI, Projekte, Dokumente und kreative Werkzeuge auf deinem Windows-PC. Entdecke die Funktionen und erfahre mehr zur geplanten Veröffentlichung.">
+  <meta property="og:title" content="Work-KI – Dein Arbeitsplatz. Deine KI.">
+  <meta property="og:description" content="Ideen entwickeln, Wissen ordnen und Projekte umsetzen. Mit lokaler KI auf deinem Windows-PC.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/work-ki.ico">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="oben">
+<a class="skip" href="#inhalt">Zum Inhalt</a>
+<header class="header">
+  <div class="wrap nav-wrap">
+    <a class="brand" href="#oben" aria-label="Work-KI Startseite"><span class="brand-mark" aria-hidden="true">w<span>·</span></span>Work-KI<span class="brand-label">LOKALE KI</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation" hidden>Menü <span aria-hidden="true">☰</span></button>
+    <nav id="navigation" aria-label="Hauptnavigation"><a href="#funktionen">Möglichkeiten</a><a href="#arbeitsweise">So funktioniert’s</a><a href="#neuigkeiten">Neuigkeiten</a><a class="nav-availability" href="#verfuegbarkeit">Verfügbarkeit <span aria-hidden="true">↗</span></a></nav>
+  </div>
+</header>
+<main id="inhalt">
+  <section class="hero wrap" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> FÜR WINDOWS · MIT LOKALER KI</p>
+      <h1 id="hero-title">Dein Arbeitsplatz.<br>Deine <span class="serif">Ideen.</span><br><span class="accent">Deine KI.</span></h1>
+      <p class="hero-description">Aus Gedanken werden Projekte. Work-KI bringt Gespräche, Wissen und kreative Werkzeuge an einen Ort – auf deinen eigenen PC.</p>
+      <div class="actions"><a class="button primary" href="#funktionen">Work-KI entdecken <span aria-hidden="true">↗</span></a><a class="text-link" href="#verfuegbarkeit">Zur Veröffentlichung <span aria-hidden="true">↓</span></a></div>
+      <p class="hero-note">Lokale Modelle mit Ollama <span aria-hidden="true">/</span> Internetfunktionen nach Freigabe</p>
+    </div>
+    <figure class="product-figure">
+      <div class="product-window">
+        <div class="window-bar"><span class="window-dots" aria-hidden="true">● ● ●</span><span>Work-KI / Dein Arbeitsplatz</span><span class="local-badge">● Lokal</span></div>
+        <div class="product-body">
+          <aside class="mock-sidebar" aria-hidden="true"><div class="mock-brand">w<span>·</span></div><div class="side-selected">◫</div><div>▤</div><div>◇</div><div>♫</div><div class="sidebar-bottom">⚙</div></aside>
+          <div class="mock-main">
+            <div class="mock-heading"><span>RAUM FÜR DEINE IDEEN</span><span aria-hidden="true">✳</span></div>
+            <h2>Was möchtest du<br>heute bewegen?</h2>
+            <div class="preview-tabs" role="tablist" aria-label="Beispiele für Work-KI">
+              <button type="button" id="tab-projekte" role="tab" aria-selected="true" aria-controls="panel-projekte">Projekte</button>
+              <button type="button" id="tab-wissen" role="tab" aria-selected="false" aria-controls="panel-wissen" tabindex="-1">Wissen</button>
+              <button type="button" id="tab-kreativ" role="tab" aria-selected="false" aria-controls="panel-kreativ" tabindex="-1">Kreativ</button>
+            </div>
+            <section class="example-panel" id="panel-projekte" role="tabpanel" aria-labelledby="tab-projekte" tabindex="0"><div class="example-icon" aria-hidden="true">↗</div><p class="mini-label">VOM GEDANKEN ZUM NÄCHSTEN SCHRITT</p><h3>Ein Buch nimmt Form an.</h3><p>Ideen sammeln, Kapitel planen und Entwürfe im Projekt weiterentwickeln.</p><div class="mock-file"><span aria-hidden="true">▤</span> Kapitelentwurf.docx <span class="file-label">ENTWURF</span></div><div class="mock-progress"><span></span></div><p class="mini-footer">Dein Projekt. Dein Tempo.</p></section>
+            <section class="example-panel" id="panel-wissen" role="tabpanel" aria-labelledby="tab-wissen" tabindex="0" hidden><div class="example-icon" aria-hidden="true">⌕</div><p class="mini-label">ZUSAMMENHÄNGE SICHTBAR MACHEN</p><h3>Wissen, das weiterhilft.</h3><p>Freigegebene Dokumente befragen und Fundstellen für die eigene Prüfung nutzen.</p><div class="mock-file"><span aria-hidden="true">▤</span> Recherche-Notizen <span class="file-label">PROJEKTWISSEN</span></div><div class="mock-progress"><span></span></div><p class="mini-footer">Quellen im Blick behalten.</p></section>
+            <section class="example-panel" id="panel-kreativ" role="tabpanel" aria-labelledby="tab-kreativ" tabindex="0" hidden><div class="example-icon" aria-hidden="true">✳</div><p class="mini-label">MEHR RAUM ZUM GESTALTEN</p><h3>Eine Idee wird zum Film.</h3><p>Szenen vorbereiten, Medien zusammenstellen und einen Filmexport planen.</p><div class="mock-file"><span aria-hidden="true">▷</span> Mein Filmprojekt <span class="file-label">MEDIEN</span></div><div class="mock-progress"><span></span></div><p class="mini-footer">Mit separat eingerichteten Mediendiensten.</p></section>
+            <div class="mock-prompt"><span>Was möchtest du als Nächstes tun?</span><span aria-hidden="true">↑</span></div>
+          </div>
+        </div>
+      </div>
+      <figcaption><span aria-hidden="true">↳</span> Illustrative Programmvorschau mit Beispieldaten. Probiere die drei Bereiche aus.</figcaption>
+    </figure>
+  </section>
+  <div class="principles"><div class="wrap"><p><span aria-hidden="true">◉</span> KI auf deinem PC</p><p><span aria-hidden="true">◫</span> Projekte mit Zusammenhang</p><p><span aria-hidden="true">✳</span> Werkzeuge für deine Ideen</p><p><span aria-hidden="true">↗</span> Du bestimmst die Freigaben</p></div></div>
+  <section class="section wrap" id="funktionen" aria-labelledby="features-title">
+    <div class="section-heading"><p class="eyebrow">EIN ARBEITSPLATZ. VIELE MÖGLICHKEITEN.</p><h2 id="features-title">Für das, was du<br><span class="serif">vorhast.</span></h2><p>Von der ersten Frage bis zum greifbaren Ergebnis. Verbinde deine Arbeit mit den passenden Werkzeugen.</p></div>
+    <div class="feature-grid">
+      <article class="feature"><span class="feature-number">01 / DENKEN</span><span class="feature-symbol" aria-hidden="true">↗</span><h3>Gespräche, die weiterführen.</h3><p>Texte formulieren, Ideen sortieren und Fragen besprechen. Du wählst ein lokales Modell, das zu deiner Aufgabe und deinem Rechner passt.</p></article>
+      <article class="feature"><span class="feature-number">02 / ORGANISIEREN</span><span class="feature-symbol" aria-hidden="true">◫</span><h3>Dein Projekt im Zusammenhang.</h3><p>Chats, Dateien, Projektwissen und nächste Schritte zusammenhalten. Für Schreibprojekte, Recherche, Entwicklung und freie Vorhaben.</p></article>
+      <article class="feature"><span class="feature-number">03 / ERSTELLEN</span><span class="feature-symbol" aria-hidden="true">▤</span><h3>Aus Ideen werden Dokumente.</h3><p>Berichte, Briefe und Präsentationen vorbereiten, Tabellen auswerten und Ergebnisse exportieren. Für PDF-Ausgaben und Seitenvorschauen wird LibreOffice benötigt.</p></article>
+      <article class="feature"><span class="feature-number">04 / ENTDECKEN</span><span class="feature-symbol" aria-hidden="true">⌕</span><h3>Wissen mit Quellen verbinden.</h3><p>Freigegebene lokale Dokumente nutzen oder öffentliche Webseiten recherchieren. Fundstellen helfen dir, Aussagen nachzuvollziehen und selbst zu prüfen.</p></article>
+      <article class="feature"><span class="feature-number">05 / GESTALTEN</span><span class="feature-symbol" aria-hidden="true">✳</span><h3>Platz für Bild, Ton und Film.</h3><p>Medienarbeit in einem Projekt vorbereiten und Ergebnisse zusammenführen. Bild-, Musik-, Sprach- und Videofunktionen brauchen passende, separat eingerichtete Dienste und Modelle.</p></article>
+      <article class="feature"><span class="feature-number">06 / ANPASSEN</span><span class="feature-symbol" aria-hidden="true">⚙</span><h3>So arbeiten, wie es zu dir passt.</h3><p>Eigene Arbeitsregeln und Textvorlagen nutzen. Optionale persönliche Erinnerungen bleiben einsehbar, bearbeitbar und abschaltbar.</p></article>
+    </div>
+  </section>
+  <section class="control-band" aria-labelledby="control-title"><div class="wrap control-layout"><div><p class="eyebrow">BEWUSST LOKAL</p><h2 id="control-title">Dein Rechner.<br><span class="serif">Deine Entscheidungen.</span></h2></div><div><p class="control-intro">Work-KI führt die Chat-KI über Ollama lokal aus. Du entscheidest, welche Dateien und Werkzeuge für deine Arbeit zugänglich sind.</p><ul class="check-list"><li>Lokaler Chat nach Einrichtung auch ohne Internet</li><li>Online-Recherche und Browserzugriff mit eigenen Freigaben</li><li>Zusatzprogramme und Modelle bewusst einrichten</li></ul><p class="fine-print">Lokale Speicherung bedeutet keine automatische Verschlüsselung. Sichere wichtige Dateien und prüfe KI-Ergebnisse vor der Verwendung.</p></div></div></section>
+  <section class="section wrap" id="arbeitsweise" aria-labelledby="start-title"><div class="section-heading"><p class="eyebrow">DER ERSTE SCHRITT IST DEINER</p><h2 id="start-title">Einrichten.<br><span class="serif">Losdenken.</span></h2></div><ol class="steps"><li><span>01</span><div><h3>Work-KI installieren</h3><p>Nach der Veröffentlichung Work-KI über den hier bekannt gegebenen offiziellen Bezugsweg erwerben und die Installationshinweise lesen.</p></div></li><li><span>02</span><div><h3>Lokale KI verbinden</h3><p>Ollama und ein geeignetes Modell separat einrichten. Im Programm das Modell auswählen und die Systemprüfung nutzen.</p><a class="text-link" href="https://ollama.com/download/windows" target="_blank" rel="noopener noreferrer">Zu Ollama für Windows ↗</a></div></li><li><span>03</span><div><h3>Mit deinem Vorhaben starten</h3><p>Einen Chat beginnen oder ein Projekt anlegen. Nur die Quellen und Werkzeuge freigeben, die du für die Aufgabe brauchst.</p></div></li></ol></section>
+  <section class="availability-section" id="verfuegbarkeit" aria-labelledby="availability-title"><div class="wrap availability-layout"><div><p class="eyebrow">WORK-KI FÜR WINDOWS · GEPLANTER VERKAUF</p><h2 id="availability-title">Dein nächstes Projekt.<br><span class="serif">Bald mit Work-KI.</span></h2><p>Work-KI soll künftig über den Microsoft Store oder eine vergleichbare Plattform angeboten werden. Verkaufsstart, Preis und der offizielle Bezugsweg werden hier bekannt gegeben.</p><p class="release-status"><span class="status-dot" aria-hidden="true"></span>Veröffentlichung geplant</p><p class="fine-print">Proprietäre Software · <a href="lizenz.txt">Lizenzbedingungen lesen</a></p></div><div class="requirements"><h3>Das braucht dein PC</h3><dl><div><dt>System</dt><dd>Windows 10 22H2 oder Windows 11 · 64 Bit</dd></div><div><dt>Arbeitsspeicher</dt><dd>16 GB für kleine Modelle<br>32 GB oder mehr empfohlen</dd></div><div><dt>Speicherplatz</dt><dd>Insgesamt etwa 25 GB mit Ollama und Basismodellen einplanen</dd></div><div><dt>Grafikkarte</dt><dd>Für Chat optional; eine unterstützte GPU kann die Berechnung beschleunigen</dd></div></dl><p class="fine-print">Planungswerte. Der tatsächliche Bedarf hängt vom Modell, der Kontextlänge und deinen Aufgaben ab. Ollama, Modelle und Mediendienste sind nicht im Work-KI-Setup enthalten.</p></div></div></section>
+  <section class="section wrap news" id="neuigkeiten" aria-labelledby="news-title"><div class="news-heading"><p class="eyebrow">IN ENTWICKLUNG</p><h2 id="news-title">Work-KI wächst<br><span class="serif">mit den Aufgaben.</span></h2><p>Ausgewählte Änderungen aus der Programmdokumentation. Informationen zum Verkaufsstart folgen im Bereich Verfügbarkeit.</p></div><div class="news-list"><article><span class="version">0.53.0</span><div><h3>Persönlich ansprechen</h3><p>Optionale Namensabfrage und Einstellungen für die Ansprache. Persönliche Erinnerungen lassen sich ansehen, ändern, pausieren und vergessen.</p></div></article><article><span class="version">0.51.0</span><div><h3>Updates bewusst auswählen</h3><p>Updatehinweise und eine wählbare regelmäßige Prüfung. Installation und Übernahme werden ausdrücklich bestätigt.</p></div></article><article><span class="version">0.50.0</span><div><h3>Eigene Arbeitsweisen</h3><p>Persönliche Arbeitsregeln und Textvorlagen prüfen, aktivieren und exportieren.</p></div></article></div></section>
+  <section class="faq-section wrap" aria-labelledby="faq-title"><div><p class="eyebrow">GUT ZU WISSEN</p><h2 id="faq-title">Noch eine<br><span class="serif">Frage?</span></h2></div><div class="faq"><details><summary>Wann und wo kann ich Work-KI kaufen?</summary><p>Ein Verkauf über den Microsoft Store oder eine vergleichbare Plattform ist geplant. Verkaufsplattform, Termin und Preis stehen noch nicht fest. Sobald der offizielle Bezugsweg verfügbar ist, wird er auf dieser Webseite verlinkt.</p></details><details><summary>Brauche ich ein Cloud-KI-Konto?</summary><p>Für den lokalen Chat über Ollama brauchst du kein Cloud-KI-Konto. Modelle müssen vorher eingerichtet sein. Optionale externe Dienste können eigene Konten oder Bedingungen erfordern.</p></details><details><summary>Funktioniert Work-KI ohne Internet?</summary><p>Der lokale Chat funktioniert nach Einrichtung von Ollama und einem passenden Modell auch offline. Webrecherche, Modelldownloads und Onlineupdates benötigen Internet. Medienfunktionen hängen von den eingerichteten Diensten ab.</p></details><details><summary>Sind alle Modelle und Medienwerkzeuge enthalten?</summary><p>Nein. Ollama, KI-Modelle sowie Bild-, Sprach-, Musik- und Videodienste werden getrennt eingerichtet. Funktionsumfang und Geschwindigkeit hängen von Modell, Hardware und Einrichtung ab.</p></details><details><summary>Ist Work-KI Open Source?</summary><p>Work-KI wird unter einer proprietären Lizenz bereitgestellt. Die öffentliche Webseite macht den Programmcode nicht zu Open Source. Für Fremdkomponenten und Modelle gelten deren eigene Bedingungen. <a href="lizenz.txt">Zur Work-KI-Lizenz</a>.</p></details><details><summary>Wie erreiche ich den Entwickler?</summary><p>Work-KI wird von Marko Reber entwickelt. Fragen, Rückmeldungen und Hinweise kannst du an <a href="mailto:MarkoReber@outlook.de">MarkoReber@outlook.de</a> senden.</p></details></div></section>
+  <section class="contact wrap" id="kontakt"><p class="eyebrow">VON MENSCH ZU MENSCH</p><h2>Eine Idee für Work-KI?</h2><a href="mailto:MarkoReber@outlook.de">Schreib Marko Reber <span aria-hidden="true">↗</span></a></section>
+</main>
+<footer class="footer"><div class="wrap"><a class="brand" href="#oben"><span class="brand-mark" aria-hidden="true">w<span>·</span></span>Work-KI</a><p>© 2026 Marko Reber</p><nav aria-label="Rechtliche Informationen"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a><a href="lizenz.txt">Lizenz</a><a href="#oben">Nach oben ↑</a></nav></div></footer>
+</body>
+</html>

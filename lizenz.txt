@@ -1,0 +1,128 @@
+Work-KI – Proprietäre Softwarelizenz
+Version 1.1
+Stand: 25. Oktober 2026
+
+Copyright © 2026 Marko Reber
+Alle Rechte vorbehalten.
+
+Rechteinhaber:
+Marko Reber
+Sunderberger Weg 5
+29599 Weste
+Deutschland
+
+E-Mail:
+MarkoReber@outlook.de
+
+1. Geltungsbereich und Nutzung
+
+Diese Bedingungen gelten für die eigenen Work-KI-Programmteile und ihre
+Dokumentation. Berechtigte Empfänger dürfen die ihnen vom Rechteinhaber
+überlassene Software für eigene private oder berufliche Zwecke installieren
+und verwenden, soweit eine gesonderte Vereinbarung nichts anderes bestimmt.
+Erforderliche Installations- und Sicherungskopien sind zulässig.
+Es wird keine allgemeine Open-Source- oder MIT-Lizenz erteilt.
+Alle nicht ausdrücklich eingeräumten Rechte verbleiben beim Rechteinhaber.
+
+2. Weiterverkauf und Weitergabe
+
+Der Weiterverkauf, die Vermietung, Unterlizenzierung, öffentliche Bereitstellung
+oder sonstige Weitergabe der eigenen Work-KI-Programmteile und Dokumentation
+ist ohne vorherige ausdrückliche Genehmigung von Marko Reber in Textform
+nicht gestattet, soweit gesetzlich zulässig. Dies gilt auch für ihre
+Verbreitung als Bestandteil eines anderen Softwarepakets.
+Insbesondere ist es ohne vorherige Genehmigung nicht gestattet, die Software
+auf Download-Plattformen, Cloud-Diensten, öffentlichen Repositorien oder
+vergleichbaren Diensten Dritten bereitzustellen. Die in Abschnitt 1 erlaubten
+eigenen Sicherungskopien bleiben hiervon unberührt.
+Zwingende gesetzliche Befugnisse, insbesondere eine gesetzlich zulässige
+Weiterveräußerung bei Erschöpfung des Verbreitungsrechts, bleiben unberührt.
+
+3. Nutzung auf eigene Gefahr und keine zusätzliche Gewährleistung
+
+Die Software wird im vorhandenen Zustand ("wie besehen") bereitgestellt.
+Soweit gesetzlich zulässig, wird die Gewährleistung ausgeschlossen. Es werden
+keine zusätzlichen Garantien für Fehlerfreiheit, Verfügbarkeit, Sicherheit,
+Eignung für einen bestimmten Zweck oder Richtigkeit von KI-Ausgaben übernommen.
+Zwingende gesetzliche Mängelrechte bleiben unberührt.
+
+Die Nutzung erfolgt auf eigene Gefahr im Rahmen der gesetzlich zulässigen
+Risikozuweisung. Nutzer müssen KI-Ergebnisse, Dateien und vorgeschlagene
+Aktionen vor ihrer Verwendung prüfen und wichtige Daten regelmäßig sichern.
+Die Software ersetzt keine fachkundige Prüfung rechtlicher, medizinischer,
+finanzieller oder sicherheitsrelevanter Entscheidungen.
+
+4. Haftung
+
+Soweit gesetzlich zulässig, ist die Haftung insbesondere für Datenverlust,
+Systemausfälle, Sicherheitsvorfälle, finanzielle Schäden und sonstige
+Folgeschäden aus Nutzung, Fehlgebrauch oder Veränderung der Software
+ausgeschlossen.
+
+Diese Beschränkungen gelten nicht bei Vorsatz oder grober Fahrlässigkeit,
+bei Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit,
+bei übernommener Garantie, arglistigem Verschweigen eines Mangels oder
+zwingender gesetzlicher Haftung, insbesondere nach dem Produkthaftungsgesetz.
+Bei leicht fahrlässiger Verletzung wesentlicher Vertragspflichten bleibt
+die Haftung für den vorhersehbaren, vertragstypischen Schaden bestehen.
+
+5. Fremdkomponenten und erzeugte Inhalte
+
+Fremdcode, Bibliotheken, Modelle, Stimmen und externe Programme unterliegen
+ihren jeweiligen eigenen Lizenzbedingungen. Deren eingeräumte Rechte werden
+durch diese Bedingungen nicht eingeschränkt; ihre Lizenztexte und Hinweise
+müssen gesondert beachtet werden.
+
+Soweit gesetzlich zulässig und unter Beachtung der Haftungsregelungen in
+Abschnitt 4 übernimmt der Rechteinhaber keine Verantwortung für durch Nutzer
+eingegebene, hochgeladene oder verarbeitete Inhalte sowie für von der Software
+erzeugte Ausgaben. Nutzer müssen die Zulässigkeit ihrer Eingaben und der
+beabsichtigten Verwendung der Ausgaben selbst prüfen.
+
+Diese Bedingungen verbieten nicht den Verkauf eigener mit Work-KI erstellter
+Videos, Musik oder anderer Inhalte. Rechte an Eingaben und Ausgaben sowie
+die Bedingungen der verwendeten Modelle, Stimmen und Medien sind unabhängig
+davon zu prüfen. Eine allgemeine Rechtefreiheit von KI-Ausgaben wird nicht
+zugesichert.
+
+6. Frühere Lizenzfassungen und gesetzliche Befugnisse
+
+Diese Fassung ersetzt die bisherige MIT-Lizenzangabe für künftige Ausgaben
+dieses Programmstands. Bereits wirksam eingeräumte Rechte an früher unter
+anderen Bedingungen überlassenen Kopien werden dadurch nicht rückwirkend
+aufgehoben. Zwingende gesetzliche Nutzungsbefugnisse bleiben unberührt.
+
+7. Aktualisierungen
+
+Bereitgestellte Aktualisierungen der eigenen Work-KI-Programmteile unterliegen
+den jeweils mitgelieferten und wirksam vereinbarten Bedingungen. Bereits
+eingeräumte Rechte an früher überlassenen Fassungen bleiben unberührt.
+Die technische Updatefunktion begründet für sich allein keinen Anspruch auf
+unbegrenzte kostenlose Funktionserweiterungen oder neue Hauptversionen.
+Gesonderte vertragliche Zusagen und zwingende gesetzliche Ansprüche,
+insbesondere anwendbare Aktualisierungspflichten einschließlich erforderlicher
+Sicherheitsaktualisierungen, bleiben uneingeschränkt unberührt.
+
+Lokale Updatepakete sind vor der Installation zu prüfen. Vor einem
+Versionswechsel sollen wichtige Daten gesichert werden. Modelle, Stimmen,
+externe Programme und sonstige Fremdkomponenten werden durch ein Update der
+eigenen Programmteile nicht automatisch neu lizenziert oder aktualisiert.
+Diese Hinweise schränken die gesetzlichen Ausnahmen in Abschnitt 4 nicht ein.
+
+8. Schlussbestimmungen
+
+Sollten einzelne Bestimmungen dieser Lizenz ganz oder teilweise unwirksam
+sein oder werden, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt.
+An die Stelle der unwirksamen Bestimmung tritt die gesetzliche Regelung.
+Die gesetzlichen Ausnahmen, insbesondere § 306 Absatz 3 BGB, bleiben unberührt.
+
+Es gilt das Recht der Bundesrepublik Deutschland, soweit gesetzlich zulässig.
+Diese Rechtswahl entzieht Verbrauchern nicht den Schutz zwingender
+Bestimmungen des Rechts, das ohne diese Rechtswahl anwendbar wäre.
+
+Hinweis
+
+Die Wirksamkeit einzelner Bestimmungen kann von der Art der Verbreitung,
+dem Vertriebsweg und der ordnungsgemäßen Einbeziehung dieser Bedingungen
+in den jeweiligen Nutzungsvertrag abhängen. Diese Lizenz ersetzt keine
+individuelle Rechtsberatung.
